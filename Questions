@@ -1,0 +1,11 @@
+SET: ODD
+
+Q.1 Given a dataset mtcars in R, implement the following: normalize the numeric values in the dataset for ‘am’ attribute, replace 1 and 0 with the labels yes and no respectively
+
+Q.2 Consider wine dataset apply KNN and check the accuracy of the model. Divide the 80% dataset as a training data and 20% as testing data.
+
+Q.3 The ToothGrowth dataset examines the effect of vitamin C on tooth growth in guinea pigs, with variables len (tooth length), supp (type of supplement: VC or OJ), and dose (dose of supplement in mg).
+(a) Display the len (tooth length) and supp (supplement) values for guinea pigs that received a dose of 2 mg.
+(b) Write an sqldf query to group the data by supp and calculate the average len for each supplement group.
+(c) Display the total number of guinea pigs that have a len greater than 20.
+(d) Write a query to select the average len for guinea pigs that received a dose of more than 1 mg, grouping by supp.
