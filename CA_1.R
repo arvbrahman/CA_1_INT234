@@ -1,5 +1,5 @@
-#ABHISHEK KUMAR MISHRA - 12221644         
-#ODD
+                    #ABHISHEK KUMAR MISHRA - 12221644         
+                                    #ODD
 #Q1 ----
 #Accessing the inbuilt data set
 mtc <- mtcars
@@ -38,13 +38,21 @@ library(sqldf)    #library for sql
 
 
 #Tooth Length and suppliment values where dose =2
-sqldf("select len,supp from TG_data where dose=2")
+sqldf("select len,
+      supp from TG_data 
+      where dose=2")
 
 #Average of Toothlength grouped by supplimnet
-sqldf("select avg(len),supp from TG_data group by supp")
+sqldf("select avg(len),
+      supp from TG_data 
+      group by supp")
 
 #Total of guinea pigs where 
-sqldf("select count(supp) from TG_data where len>20")
+sqldf("select count(supp) 
+      from TG_data 
+      where len>20")
 
 #Average of Toothlength where dose is greater than 1 grouped by suppliment
-sqldf("select avg(len),supp from TG_data where dose>1 group by supp")
+sqldf("select avg(len),supp 
+      from TG_data 
+      where dose>1 group by supp")

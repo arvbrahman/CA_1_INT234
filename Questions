@@ -1,7 +1,23 @@
+SET: EVEN
+Q.1 You are provided with a CSV file ‘survey_data’ containing raw survey data with missing values, inconsistent data formats, and erroneous entries.
+(a) Write the R code to import the CSV file and inspect the first few rows.
+(b) Identify and replace missing values in the dataset with appropriate methods such as mean, median, or mode, and explain your choice.
+
+Q.2 Write R code to implement the K-Nearest Neighbors algorithm on a dataset of “diamonds” (from ggplot2 package). Include the steps for:
+(a) Splitting the dataset into training and testing sets.
+(b) Applying the KNN model.
+(c) Evaluating the performance using accuracy or confusion matrix.
+
+Q.3 The airquality dataset contains daily air quality measurements in New York from May to September 1973, with columns such as Ozone, Solar.R (solar radiation), Wind, Temp, Month, and Day.
+(a) Display the Ozone and Temp values for days in the month of July (Month = 7).
+(b) Write an sqldf query to group the data by Month and calculate the average Wind speed for each month.
+(c) Display the total number of days where Ozone levels were above 100.
+(d) Write a query to select the average Temp for days with Wind speed greater than 10, grouping by Month.
+
+
 SET: ODD
-
 Q.1 Given a dataset mtcars in R, implement the following: normalize the numeric values in the dataset for ‘am’ attribute, replace 1 and 0 with the labels yes and no respectively
-
+ 
 Q.2 Consider wine dataset apply KNN and check the accuracy of the model. Divide the 80% dataset as a training data and 20% as testing data.
 
 Q.3 The ToothGrowth dataset examines the effect of vitamin C on tooth growth in guinea pigs, with variables len (tooth length), supp (type of supplement: VC or OJ), and dose (dose of supplement in mg).
